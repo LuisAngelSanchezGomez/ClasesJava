@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class Factorial {
     public static void main(String[] args) {
         for (int i = 0; i<9;i++){
-            int n = i;
-            System.out.println("El factorial de "+ n + " es: "+factorial(n));
+            System.out.println("El factorial de "+ i + " es: "+factorial(i));
         }
 
 
